@@ -26,7 +26,11 @@
 <div align="center">
   
 ### 🎥 Platform Demo
-**Video Preview:** [`resource/readme-intro.mp4`](resource/readme-intro.mp4)
+
+<video width="800" controls>
+  <source src="resource/readme-intro.mp4" type="video/mp4">
+  Your browser does not support the video tag. [Download the video](resource/readme-intro.mp4)
+</video>
 
 *The video showcases the complete Pitch In experience:*
 - ✨ **Splash screen** with elegant animations
@@ -37,10 +41,7 @@
 - 🤝 **Deal room** with real-time chat
 - 🎛️ **Admin dashboard** for founder approval
 
-*To view:* Download and play the MP4 file, or convert to GIF using tools like `ffmpeg`:
-```bash
-ffmpeg -i resource/readme-intro.mp4 -vf "fps=10,scale=800:-1" resource/demo.gif
-```
+*Note:* If the video doesn't play directly in GitHub, you can [download it here](resource/readme-intro.mp4) to view locally.
 
 </div>
 
