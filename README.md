@@ -28,7 +28,7 @@
 ### 🎥 Platform Demo
 
 <video width="800" controls>
-  <source src="resource/readme-intro.mp4" type="video/mp4">
+  <img src="resource/Listen Schitts Creek GIF by CBC.gif" alt="Listen Schitts Creek GIF">
   Your browser does not support the video tag. [Download the video](resource/readme-intro.mp4)
 </video>
 
