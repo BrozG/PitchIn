@@ -1,0 +1,6 @@
+[submodule "mobile"]
+	path = mobile
+	url = https://github.com/BrozG/PitchIn-Mobile.git
+[submodule "web-admin"]
+	path = web-admin
+	url = https://github.com/BrozG/PitchIn-WebAdmin.git
