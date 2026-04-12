@@ -15,7 +15,7 @@
 **Ready to launch?** Jump straight to the [QUICKSTART.md](QUICKSTART.md) guide for immediate setup instructions.
 
 [![Get Started](https://img.shields.io/badge/GET_STARTED-Now-C9A84C?style=for-the-badge&logo=rocket)](QUICKSTART.md)
-[![View Demo](https://img.shields.io/badge/WATCH_DEMO-Video-080C14?style=for-the-badge&logo=video)](resource/readme-intro.mp4)
+[![View Demo](https://img.shields.io/badge/WATCH_DEMO-GIF-080C14?style=for-the-badge&logo=video)](resource/readme-intro.gif)
 
 </div>
 
@@ -27,10 +27,7 @@
   
 ### 🎥 Platform Demo
 
-<video width="800" controls>
-  <source src="resource/readme-intro.mp4" type="video/mp4">
-  Your browser does not support the video tag. [Download the video](resource/readme-intro.mp4)
-</video>
+<img src="resource/readme-intro.gif" alt="Pitch In Demo" width="800" />
 
 *The video showcases the complete Pitch In experience:*
 - ✨ **Splash screen** with elegant animations
@@ -41,7 +38,7 @@
 - 🤝 **Deal room** with real-time chat
 - 🎛️ **Admin dashboard** for founder approval
 
-*Note:* If the video doesn't play directly in GitHub, you can [download it here](resource/readme-intro.mp4) to view locally.
+*Note:* The GIF showcases the complete Pitch In experience. For higher quality, you can [view the original video here](resource/readme-intro.mp4).
 
 </div>
 
@@ -227,14 +224,14 @@ PitchIn/
 │   │   └── services/       # Business logic
 │   ├── supabase_schema.sql # Complete database schema
 │   └── main.py            # Application entry point
-├── mobile/                 # React Native + Expo app
+├── [mobile/](https://github.com/BrozG/PitchIn-Mobile.git)                 # React Native + Expo app
 │   ├── screens/           # All application screens
 │   ├── components/        # Reusable UI components
 │   └── App.js            # Main navigation stack
-├── web-admin/             # Next.js admin dashboard
+├── [web-admin/](https://github.com/BrozG/PitchIn-WebAdmin.git)             # Next.js admin dashboard
 │   └── app/              # App router pages
 └── resource/             # Media assets
-    └── readme-intro.mp4  # Platform introduction video
+    └── readme-intro.gif  # Platform introduction GIF
 ```
 
 ---
