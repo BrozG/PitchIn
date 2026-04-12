@@ -26,11 +26,9 @@
 <div align="center">
   
 ### 🎥 Platform Demo
-
-<video width="800" controls>
-  <img src="resource/Listen Schitts Creek GIF by CBC.gif" alt="Listen Schitts Creek GIF">
-  Your browser does not support the video tag. [Download the video](resource/readme-intro.mp4)
-</video>
+<div align="center">
+  <img src="resource/listen-schitts-creek.gif" alt="Listen Schitts Creek GIF">
+</div>
 
 *The video showcases the complete Pitch In experience:*
 - ✨ **Splash screen** with elegant animations
