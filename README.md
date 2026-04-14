@@ -42,6 +42,20 @@
 
 </div>
 
+## 📸 Screenshots
+
+### Mobile App
+| Role Selection | Founder Onboarding | Investor Discovery |
+|----------------|---------------------|---------------------|
+| <img src="resource/mobile-role-selection.png" width="200"> | <img src="resource/mobile-founder-onboarding.png" width="200"> | <img src="resource/mobile-investor-discovery.png" width="200"> |
+
+### Web Admin
+| Application Queue | Analytics Dashboard |
+|-------------------|---------------------|
+| <img src="resource/web-admin-queue.png" width="400"> | <img src="resource/web-admin-dashboard.png" width="400"> |
+
+*Note: Add your actual screenshots to the resource directory and update paths*
+
 ---
 
 ## ✨ What Is Pitch In?
@@ -318,45 +332,54 @@ This platform stands on the shoulders of:
 - **The open-source community** that makes such magic possible
 - **The team** who believed connections could be both meaningful and measurable
 
+## 🤝 Contribution Guidelines
+
+We welcome contributions! Please follow these steps:
+1. **Fork** the repository
+2. **Create** a feature branch: `git checkout -b feature/amazing-feature`
+3. **Commit** your changes: `git commit -m 'Add amazing feature'`
+4. **Push** to the branch: `git push origin feature/amazing-feature`
+5. **Open** a Pull Request
+
+### Development Workflow
+- Follow our [coding standards](docs/CODING_STANDARDS.md)
+- Write unit tests for new features
+- Update documentation when making changes
+- Use descriptive commit messages
+- Keep PRs focused on a single feature/bug
+
+### Code Review Process
+1. Automated CI checks (tests, linting)
+2. Maintainer review within 48 hours
+3. Address feedback through commits
+4. Merge after 2 approvals
+
+For detailed guidelines, see our [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ---
 
 ## 📜 License
 
-Pitch In is released under the **Connection Commons License** - because some things are too important to keep behind walls.
+Pitch In is released under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+### Permissions
+- Commercial use
+- Modification
+- Distribution
+- Private use
+
+### Limitations
+- Liability
+- Warranty
+
+### Requirements
+- License and copyright notice
 
 > *"The best way to predict the future is to create it."*<br>
 > *— Alan Kay*
 
 ---
 
-## 🚀 How to Run This Symphony
-
-### The Short Version
-```bash
-# 1. Backend
-cd backend && venv\Scripts\activate && uvicorn main:app --reload
-
-# 2. Web Admin
-cd web-admin && npm run dev
-
-# 3. Mobile App
-cd mobile && npx expo start --dev-client
-```
-
-### The Complete Guide
-For detailed setup instructions, environment configuration, troubleshooting, and deployment guides, see the comprehensive **[QUICKSTART.md](QUICKSTART.md)** document.
-
-### Access Points Once Running:
-- **API & Documentation:** http://localhost:8000/docs
-- **Admin Dashboard:** http://localhost:3000
-- **Mobile App:** Scan QR code from Expo server (http://localhost:8081)
-- **Health Check:** http://localhost:8000/health
-
-### Need Help?
-1. Check the [QUICKSTART.md](QUICKSTART.md) troubleshooting section
-2. Verify all services are running on correct ports
-3. Ensure environment variables are properly configured
-4. Review terminal logs for any error messages
 
 ---
 
